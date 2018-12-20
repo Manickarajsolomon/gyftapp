@@ -36,7 +36,7 @@ export const ROUTES: RouteInfo[] = [
 @Component({
     selector: 'app-sidebar',
     templateUrl: 'sidebar.component.html',
-    styleUrls: ['./sidebar.scss']
+    styleUrls: ['./sidebar.css']
 })
 
 export class SidebarComponent {

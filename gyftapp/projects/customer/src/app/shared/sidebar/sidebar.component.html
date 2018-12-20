@@ -1,21 +1,21 @@
 <div [class]="mobileQuery.matches ? 'ulwidth' : 'ulwidthss'">
-    <mat-toolbar class="" color='primary'>
+    <mat-toolbar class="sidenavbar" color='primary'>
         <mat-toolbar-row>
             <a class="navbar-brand textcolor-font">
                 <mat-icon class="example-icon" (click)="open()"><i style="font-size: 35px;" class="material-icons">reorder</i>
                 </mat-icon>
             </a>
-            <!-- <a class="navbar-brand textcolor-font" [routerLink]="['/home/mywallet']">My Wallet</a>
-            <a class="navbar-brand textcolor-font" [routerLink]="['/home/mygiftcards']">Buy Gift Cards</a> -->
+            <a class="navbar-brand textcolor-font" [routerLink]="['/home/mywallet']">My Wallet</a>
+            <a class="navbar-brand textcolor-font" [routerLink]="['/home/mygiftcards']">Buy Gift Cards</a>
         </mat-toolbar-row>
     </mat-toolbar>
 </div>
 <div [class]="mobileQuery.matches ? 'ulwidthss' : 'ulwidth'">
     <mat-toolbar class="" color='primary'>
         <mat-toolbar-row>
-            <div class="navbar ">
+            <div class="navbar">
                 <div class="pull-left">
-                    <a class="navbar-brand textcolor-font ">GYFT</a>
+                    <a class=" textcolor-font ">GYFT</a>
                     <a class="active" [routerLink]="['/home/mywallet']">My Wallet</a>
                     <a class="" [routerLink]="['/home/mygiftcards']">Buy Gift Cards</a>
                 </div>
@@ -36,7 +36,7 @@
                             <a href="#"><i class="fas fa-sign-out-alt "></i><span class="ml-3 txt-grey">Logout</span></a>
                         </div>
                     </div>
-                    <a class="" [routerLink]="['/home/mygiftcards']">Help <i class="fa fa-question-circle"></i></a>
+                    <a class="helpbutton" [routerLink]="['/home/mygiftcards']">Help <i class="fa fa-question-circle"></i></a>
 
                 </div>
 
